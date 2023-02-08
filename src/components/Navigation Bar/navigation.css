@@ -1,0 +1,30 @@
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    color: var(--blue);
+
+}
+
+nav h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.active{
+    font-weight: 700;
+    /* color: var(--orange); */
+    text-decoration: underline;
+}
+
+nav button{
+    margin-left:1rem;
+}

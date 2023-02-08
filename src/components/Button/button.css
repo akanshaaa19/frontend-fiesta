@@ -1,0 +1,24 @@
+.button{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.outline{
+    background-color: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+.filled{
+    background-color: var(--blue);
+    border: none;
+    color: #fff;
+}
+
+.light{
+    background: var(--lightblue);
+    border: none;
+    color: var(--blue);
+}
